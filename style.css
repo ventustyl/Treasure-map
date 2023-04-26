@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  cursor: url(crochet.png) 20 20, pointer;
+  background: black;
+}
+
+#map-container {
+  height: 5758px;
+  width: 8200px;
+}
+
+#map {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: 8200px 5758px;
+  position: static;
+}
